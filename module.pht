@@ -1,4 +1,4 @@
 os=debian
 giturl=https://github.com/the-abra/FacialRecognition
-exec=main.sh
+exec=pht.sh
 vpath=/opt/FacialRecognition
