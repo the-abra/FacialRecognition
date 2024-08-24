@@ -13,6 +13,13 @@ fi
 source /lib/func4bash/logging.lib
 source /lib/func4bash/static_progress_bar.lib
 
+# Installation 
+if command -v apt >/dev/null; then
+    apt install -yq python3 python3-pip python3.11-venv
+elif command -v pacman >/dev/null; then
+    pacman -Syu --needed python python-pip python-virtualenv
+
+
 # PATH setup
 log.info "Setting up /opt/FacialRecognition path..."
 progress "0"
