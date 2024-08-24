@@ -14,9 +14,20 @@
 - UNIX Like file system
 - python3 python3-pip python3.11-venv
 
-### Installation 🛠️
+### Depends Installation (DEBIAN)
 
-    bash -c "$(curl -sSfL https://raw.githubusercontent.com/the-abra/FacialRecognition/main/setup.sh)"
+    apt install -y python3 python3-pip python3.11-venv
+
+### Depends Installation (ARCH) 🛠️
+
+    sudo pacman -Syu --needed python python-pip python-virtualenv
+
+# VENV And PIP Depends Setup
+
+    python3 -m venv FacialRecognition
+    source FacialRecognition/bin/activate
+    pip install --upgrade pip
+    pip install setuptools pillow opencv-python opencv-contrib-python
 
 ### Supported Oses 🖥️
 
