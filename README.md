@@ -6,7 +6,6 @@
 
 - Git
 - Bash
-- Docker
 - WebCam
 - Computer (optional)
 - Root permission
