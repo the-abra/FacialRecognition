@@ -2,6 +2,12 @@
 
 # Getting Started 🚀
 
+| File Name           | Description                                                                                                                      |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| face_dataset.py     | Take 30 pictures with detected faces using `haarcascade_frontalface_default.xml` for training and save them to the `dataset/` path. |
+| face_training.py    | Get pictures from the `dataset/` path for training and save the `trainer.yml` file to the `trainer/` path.                          |
+| face_recognition.py | Detect and recognize faces using `trainer/trainer.yml`.
+
 ### Prerequisites 📋
 
 - Git
@@ -9,7 +15,7 @@
 - WebCam
 - Computer (optional)
 - Root permission
-- Network Connection (Optional)
+- Network Connection (For Depends Installation)
 - UNIX Like file system
 - python3 python3-pip python3.11-venv
 
