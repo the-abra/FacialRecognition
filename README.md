@@ -6,7 +6,7 @@
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | face_dataset.py     | Take 30 pictures with detected faces using `haarcascade_frontalface_default.xml` for training and save them to the `dataset/` path. |
 | face_training.py    | Get pictures from the `dataset/` path for training and save the `trainer.yml` file to the `trainer/` path.                          |
-| face_recognition.py | Detect and recognize faces using `trainer/trainer.yml`.
+| face_recognition.py | Detect and recognize faces using `trainer/trainer.yml` for live.
 
 ### Prerequisites 📋
 
